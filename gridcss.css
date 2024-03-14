@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-columns:  repeat(2 200px 200px)
+
+    grid-template-rows: 100px 200px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+ .div1{
+    border: 1px solid red;
+}

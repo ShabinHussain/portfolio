@@ -1,0 +1,518 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+a.a2:hover, a.a2:active{
+    color: white;
+}
+
+
+.div1{
+    width: device-width;
+    height: 100px;
+    background-color: gray;
+}
+
+.div1 img{
+    filter: brightness(1);
+    width: 180px;
+    margin-left: 250px;
+    margin-top: -52px;
+}
+
+
+.a2{
+    text-decoration: none;
+    color: black;
+}
+
+.div2{
+   
+    width: 520px;
+    height: 55px;
+    margin-left: 770px;
+    margin-top: -90px;
+    margin-bottom: 10px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.li1{
+     float: left;
+     padding: 20px;
+     margin-top: -19px;
+}
+
+
+.div3{
+    position: relative;
+    width: device-width;
+    height: 750px;
+}
+
+.div3 video{
+    width: 100%;
+}
+
+.d1{
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+    height: 350px;
+    background-color: rgb(18, 20, 18,0.5);
+    margin-top: -700px;
+    margin-left: 450px;
+}
+
+.d1 h1{
+    font-size: 65px;
+    filter: brightness(2);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+
+#hover1:hover + .hhide {
+    display: block;
+}
+
+
+
+.d1 h2{
+    filter: brightness(2);
+    text-align: center;
+    margin-top: -45px;
+    color: white;
+}
+
+.d1 p{
+    filter: brightness(2);
+
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+
+
+#id4,#id8,#id10,#id12{
+    position: relative;
+    width: 756px;
+    height: 600px;
+    border: 1px grey solid;
+    margin-left: 1px;
+    margin-top: 105px;
+    background-color: gray;
+    
+    
+}
+
+#id4 h1{
+    color: white;
+}
+#id5{
+    width: 756px;
+    height: 600px;
+    border: 1px grey solid;
+    margin-left: 761px;
+    margin-top: -601.5px;
+    background-image: url(./images/chinese1\ \(2\).jpg);
+    background-attachment: fixed;
+  
+}
+
+#id4 h1{
+    margin-left: 150px;
+}
+
+#id6,#id7,.id14{
+    margin-left: 150px;
+    font-size: 20px;
+    color: white;
+}
+
+
+#id8{
+    margin-top: 1px;
+    background-image: url(https://luluwild.co.uk/wp-content/uploads/2023/07/pan-asian-vs-chinese-cousine-1.jpeg);
+    background-attachment: fixed;
+  
+}
+#id9,#id11,#id13{
+    background-color: black;
+    width: 756px;
+    height: 600px;
+    border: 1px grey solid;
+    margin-left: 761px;
+    margin-top: -601.5px;
+
+}
+
+.id18{
+    margin-left: 150px;
+    font-size: 60px;
+    color: white;
+}
+
+
+.id14{
+    color: white;
+    margin-top: 60px;
+}
+
+#id10{
+    margin-top: 1px;
+}
+#id12{
+    margin-top: 1px;
+}
+
+#id11{
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/220921081550-05-chinese-foods-mapo-tofu.jpg?c=original);
+    background-attachment: fixed;
+
+}
+
+#id12{
+    background-image: url(https://cdn.britannica.com/55/234755-050-ED5FBC23/dim-sum-chopsticks.jpg);
+    background-attachment: fixed;
+
+}
+
+
+#div8{
+   
+   background-image: url(./images/green.jpg);
+   margin-top: -34px;
+   background-attachment: fixed;
+
+}
+
+#div8 h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    
+    
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 20px;
+    column-gap: 20px;
+    row-gap: 30px;
+    
+
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-radius: 10px;
+}
+
+.item img:hover{
+    transform: scale(1.04);
+}
+
+.item h4{
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.item button, .a3 {
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+
+.btn2:hover{
+    transform: scale(1.08);
+}
+
+.item button:hover{
+    transform: scale(1.08);
+
+}
+
+@media screen and (max-width:1000px){
+    .items{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:768px){
+    .items{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
+.div9{
+  
+    width: 100%;
+    height: 1500px;
+    background-color: gray;
+    margin-top: -23px;
+    position: relative;
+
+}
+
+#div10{
+    position: absolute;
+    width: 510px;
+    height: 533px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+#id22{
+    margin-top: 150px;
+}
+
+.padding{
+    padding: 15px;
+}
+
+#formm{
+    position: relative;
+    margin-left: 680px;
+   padding-top: 150px;
+}
+
+
+
+#lab2{
+    padding-left: 257px;
+}
+
+#fname{
+    width: 320px;
+    height: 30px;
+
+}
+
+#lname{
+    width: 320px;
+    height: 30px;
+}
+
+#email{
+    width: 650px;
+    height: 30px;
+}
+
+#message{
+    width: 650px;
+}
+
+.textnone{
+    text-decoration: none;
+}
+
+
+
+#formm button{
+   
+    width: 656px;
+    height: 35px;
+    background-color: yellow;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    
+    transition: 0.2s all;
+
+}
+
+#formm button:hover{
+    transform: scale(1.08);
+}
+
+#mapp h2{
+    margin-left: 430px;
+    padding-top: 80px;
+    
+}
+
+.btn1{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+
+.btn2{
+   
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+    
+
+}
+
+.btn2:hover{
+    transform: scale(1.08);
+}
+
+.btn1:hover{
+    transform: scale(1.08);
+}
+#brnch{
+    margin-left: 450px;
+    height: 300px;
+    width: 600px;
+    
+}
+
+.br{
+    border-radius: 50%;
+}
+
+#lb{
+   
+    height: 300px;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#lb a, #soho a{
+    text-decoration: none;
+}
+
+#soho{
+    
+    height: 300px;
+    width: 280px;
+    margin-left: 301px;
+    margin-top: -340px;
+    padding: 20px;
+    text-align: center;
+}
+
+#mapmain{
+    height: 400px;
+    width: 1500px;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+
+#map1{
+    height: 400px;
+    width: 750px;
+    
+    }
+
+#map2{
+    height: 400px;
+    width: 750px;
+    margin-left: 755px;
+    margin-top: -400px;
+
+
+}
+
+#footer{
+    width: 1518px;
+    background-color: black;
+    height: 470px;
+}
+
+#footer1{
+    display: flex;
+    width: 1518px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+
+
+}
+
+#footer3{
+    width: 755px;
+    height: 300px;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+
+
+}
+
+#footer4{
+    text-align: center;
+    width: 755px;
+    height: 300px;
+    margin-left: 760px;
+    margin-top: -319px;
+    color: white;
+    background-color: black;
+
+
+
+}
+
+.h41{
+    margin-top: -25px;
+}
+
+.a1{
+    padding: 10px;
+    color: red;
+}
+
+.red{
+    background-color: red;
+    border: none;
+    padding: none;
+}
+
+
+
+
+
+

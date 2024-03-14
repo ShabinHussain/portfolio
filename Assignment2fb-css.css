@@ -1,0 +1,102 @@
+body{
+  margin:0px;
+  margin-top: 0px;
+  padding:0px;
+}
+
+
+
+#div1{
+  display: grid;
+  margin:0px;
+  
+  width: screen-width;
+  height: 600px;
+  background-color: #f0f2f5;
+  
+}
+
+#div1 a{
+  
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: rgb(0, 106, 255);
+  font-size: 50px;
+  font-weight: bold;
+  transform: scaleY(0.9);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+
+
+#div2{
+  position: relative;
+  
+  background-color: white;
+  width: 400px;
+  height: 320px;
+  margin-left: 555px;
+  margin-bottom: 130px;
+  border-radius: 10px;
+  
+
+
+}
+
+#div2 h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+form{
+  margin-left: 20px;
+}
+
+.inp{
+  height: 50px;
+  width: 350px;
+  border-radius: 5px;
+  border-color: rgb(250, 249, 249);
+}
+button{
+  height: 55px;
+  width: 355px;
+  background-color: rgb(0, 106, 255);
+  color: white;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+
+
+.div5 #id5{
+  position: absolute;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-left: 25px;
+  margin-top: 20px;
+
+
+
+}
+
+.div5 #id6{
+  position: absolute;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-left: 165px;
+  margin-top: 20px;
+
+
+
+
+
+
+}

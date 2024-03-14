@@ -1,0 +1,142 @@
+body{
+    background-color: rgba(2, 2, 22, 0.997);
+}
+
+body img{
+    color: white;
+    width: 90px;
+    height: 90px;
+    margin-left: 700px;
+}
+
+body p{
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 657px;
+    margin-top: 15px;
+}
+
+.div1{
+   
+    width: 350px;
+    height: 250px;
+    background-color:rgba(30, 31, 31, 0.8);
+    border-radius: 10px;
+    margin-left: 570px;
+    margin-top: 5px;
+}
+
+.div1 a{
+    color: rgb(0, 0, 255, 1);
+    font-weight: bold;
+    margin-left: 115px;
+}
+
+form{
+    margin-left: 20px;
+}
+
+form #lab1{
+    height: 30px;
+    background-color: rgb(4, 4, 14);
+    color: white;
+   
+    
+    width: 300px;
+    border-radius: 10px;
+}
+
+form #lab2{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(4, 4, 14);
+    color: white;
+
+
+
+
+}
+
+.labb1{
+    color: white;
+}
+
+form a{
+    margin-left: 130px;
+    text-decoration: none;
+}
+
+form button{
+    height: 40px;
+    width: 310px;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+
+    background-color: rgb(10, 211, 10);
+
+
+
+}
+
+.div2{
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    /*background-color: rgba(54, 69, 63, 0.744);*/
+    border: 1px solid gray;
+    margin-left: 570px;
+
+
+}
+
+.div2 a{
+    
+    position: absolute;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: blue;
+    margin-left: 90px;
+    margin-top: 30px;
+
+}
+
+.div2 h4{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-weight: lighter;
+    color: white;
+}
+
+
+
+.div2 #a1{
+    position: absolute;
+    margin-top: -43px;
+    margin-left: 175px;
+    font-size: 17px;
+}
+
+.div3{
+    display: grid;
+    grid-template-columns: 60px  70px 50px 180px 130px 270px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.div3 a{
+    font-weight: lighter;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
